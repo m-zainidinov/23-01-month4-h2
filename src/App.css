@@ -1,0 +1,60 @@
+.header nav,
+.footer nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+.main {
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+  
+.card {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+}
+  
+button{
+    padding: 1rem;
+    border: none;
+    background-color: aqua;
+}
+  
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(33.33%);
+    height: 100%;
+    background-color: gold;
+    opacity: 0.8;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.sideText {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 60px;
+}
